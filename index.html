@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Password Reset</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        display: flex;
+        justify-content: center;
+        background-color: #e1f0ed;
+        border-radius: 30px 30px 0 0;
+        padding: 49px 0 43px;
+      }
+
+      footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+        background-color: #06997e;
+        border-radius: 0 0 30px 30px;
+        color: #fff;
+        font-size: 10px;
+        padding: 49px 0 43px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 80px;
+      }
+
+      .section1 {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+        margin: 26px 0;
+      }
+
+      .font-noto {
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 600;
+      }
+
+      .font-poppins {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+      }
+
+      .welcome-text {
+        text-align: center;
+        color: #313434;
+        font-size: 32px;
+        line-height: 150%;
+      }
+
+      .section2 {
+        background: #ffffe5;
+        border-radius: 10px;
+        margin-top: 27px;
+        padding: 38px 29px 23px 33px;
+        row-gap: 30px;
+      }
+
+      .cta-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        border: 1px solid #158b70;
+        background: #14856b;
+        color: #fff;
+        font-size: 24px;
+        padding: 8px 24px;
+      }
+
+      .link {
+        color: #158b70;
+      }
+
+      .section3 {
+        font-size: 20px;
+        gap: 40px;
+        margin-top: 39px;
+      }
+
+      .section4 {
+        background: #ffffe5;
+        border-radius: 10px;
+        border: 1px solid #e5e5e5;
+        font-size: 20px;
+        margin-top: 129px;
+        margin-bottom: 66px;
+        padding: 42px 233px 134px 294px;
+        position: relative;
+      }
+
+      .footer-title {
+        font-weight: 600;
+        font-size: 10px;
+      }
+
+      .footerImage1,
+      .footerImage2 {
+        position: absolute;
+        width: auto;
+        height: auto;
+      }
+
+      .footerImage1 {
+        width: 300px;
+        height: 200px;
+        top: 0;
+        left: 0;
+        margin-top: -98px;
+        margin-left: -58px;
+      }
+
+      .footerImage2 {
+        width: 227px;
+        height: 261px;
+        bottom: 0;
+        right: 0;
+        margin-bottom: -96px;
+      }
+    </style>
+  </head>
+  <body>
+    <header><img src="./GC_Aadva_Logo.svg" alt="GC Aadva Logo" /></header>
+    <section class="section1">
+      <h3 class="welcome-text font-noto">
+        Hello John Doe, welcome to the GC Aadva platform.
+      </h3>
+      <p class="font-poppins">
+        You have been invited to register as a member by [%Clinicname%] OR
+        [%LabName%]
+      </p>
+    </section>
+    <section class="section2">
+      <p class="font-poppins">
+        Click on the link below to set your password which will help you to
+        login to the platform,
+      </p>
+      <a
+        href="https://www.order-management.gc.dental/reset_password"
+        class="cta-button font-noto"
+        >Set password</a
+      >
+      <p class="font-poppins" align="center">
+        The above link will be valid for 72 hours. <br />If the link has already
+        expired, you can request for a new link
+        <a
+          href="https://www.order-management.gc.dental/reset_password"
+          class="font-poppins link"
+          >here</a
+        >.
+      </p>
+    </section>
+    <section class="section3">
+      <p class="font-poppins">
+        Aadva offers a wide variety of collaborative features for dental clinics
+        and labs such as Order Dashboard, Print and Download Order Related Files
+      </p>
+      <img src="./OrderDashboard.svg" alt="Order Dashboard" />
+    </section>
+    <section class="section4">
+      <img class="footerImage1" src="./footerImage1.svg" alt="" />
+      <img class="footerImage2" src="./footerImage2.svg" alt="" />
+      <p class="font-poppins" align="center">
+        You can use login using your username (email) and password using this
+        link
+        <a
+          href="https://www.order-management.gc.dental/reset_password"
+          class="font-poppins link"
+          >https://www.order-management.gc.dental/reset_password</a
+        >
+      </p>
+    </section>
+    <footer class="font-poppins">
+      <p class="footer-title">Lorem Ipsum Dolor Isit</p>
+      <p>Contact Details: 03-3815-1511</p>
+      <a href="mailto:tomo@mls.gcdental.co.jp"
+        >Email: tomo@mls.gcdental.co.jp</a
+      >
+      <a href="https://www.gc.dental/japan/tomonokai/inquiry/"
+        >URL: https://www.gc.dental/japan/tomonokai/inquiry/</a
+      >
+    </footer>
+  </body>
+</html>
